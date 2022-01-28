@@ -5,4 +5,5 @@ Se debe capturar y almacenar en una base de datos `(Mysql)` la producción hora 
 
 1. Descargar el proyecto de GIT.
 2. Integrar vuejs en laravel usando el preset de VUE (laravel/ui)
-3. 
+
+![Plan de Producción](https://smkmx.com/wp-content/uploads/2022/01/ejemplo.png)
