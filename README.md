@@ -3,7 +3,7 @@ Se debe desarrollar un programa que simule una lineas de producción, la cual gr
 
 Se debe capturar y almacenar en una base de datos `(Mysql)` la producción hora por hora. El ingreso del texto que se ingrese (simulando una etiqueta), con un código especifico contendrá la fecha (año, mes, dia), separados de un asterisco y un Hexadecimal, el cual deberás validar que sea único, ejemplo: `20210128*AFED34`
 
-###Instrucciones
+### Instrucciones
 
 1. Descargar el proyecto de GIT.
 2. Integrar VueJS en laravel usando el preset de VUE (laravel/ui)
