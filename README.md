@@ -1,5 +1,5 @@
 # Examen Técnico de Programación
-Se debe desarrollar un programa que simule una linea de producción, la cual grafique hora con hora la producción, en un horario de 6am a 4pm, con un plan de producción de 5000 piezas. (Grafique el plan y posible resultado).
+Se debe desarrollar un programa que simule una linea de producción, la cual grafique hora con hora la producción, en un horario de 6am a 4pm, con un plan de producción de 5000 piezas.
 
 Se debe capturar y almacenar en una base de datos `(Mysql)` la producción hora por hora. El ingreso del texto que se ingrese (simulando una etiqueta), con un código especifico contendrá la fecha (año, mes, dia), separados de un asterisco y un Hexadecimal, el cual deberás validar que sea único, ejemplo: `20210128*AFED34`
 
