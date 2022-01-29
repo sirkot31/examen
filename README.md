@@ -20,7 +20,7 @@ c. Que valide que la fecha es del día actual.
 7. Graficar el hora por hora de las piezas producidas. 
 8. Mostrar la cantidad actual producido.
 
-###Cosas a considerar
+### Cosas a considerar
 
 1. Separar por componentes donde sea posible y justificable.
 2. Se puede usar cualquier framework de CSS que desee para el desarrollo de la interfaz.
