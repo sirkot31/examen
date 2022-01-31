@@ -12,7 +12,7 @@ Se debe capturar y almacenar en una base de datos `(Mysql)` la producción hora 
 ![Plan de Producción](https://smkmx.com/wp-content/uploads/2022/01/ejemplo.png)
 
 4. En el input `Escaneo` se ingresara el texto descrito arriba `20210128*AFED34` el cual deberá de validarse varios puntos:
-- Que tenga el formato `YYYYMMDD*HEXADECIMAL`.
+a. Que tenga el formato `YYYYMMDD*HEXADECIMAL`.
 b. Que sea único (Que en la base de datos no se repita).
 c. Que valide que la fecha es del día actual.
 5. Mostrar diálogos de los errores encontrados en la evaluación del texto ingresado (si los hay).
