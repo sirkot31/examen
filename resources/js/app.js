@@ -28,7 +28,7 @@ const router= new VueRouter({
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
-
+Vue.component('graphic-component', require('./components/BarChart.vue').default);
 
 const app = new Vue({
     el:'#app',
