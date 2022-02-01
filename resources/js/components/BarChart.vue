@@ -1,6 +1,6 @@
 <template>
   <div class="small">
-    <h4>Reportes del Venta Junio</h4>
+
     <bar-chart :chart-data="datacollection" :height="100"></bar-chart>
   </div>
 </template>
@@ -8,6 +8,7 @@
 <script>
 
 import BarChart from './BarChart.js'
+import axios from 'axios'
 
 export default {
   components: {
@@ -23,18 +24,31 @@ export default {
   },
   methods: {
 
-    fillData ()
+    fillData: async function ()
     {
+        let dataT = {
+          labels:[],
+          data:[]
+        };
+
+        await axios.get("/api/a").then(response=>{
+            let { data } = response
+            data.forEach(item=>{
+                dataT.labels.push(item.hour)
+                dataT.data.push(item.productionXhour)
+            })
+        })
+
       this.datacollection = {
-        labels: ['Lunes','Martes','Miercoles','Jueves','Viernes', 'Sabado' , 'Domingo','tracala'],
-        datasets: [
+       labels: dataT.labels,
+       datasets: [
           {
-            label: 'Ventas',
+            label: 'Actual',
             backgroundColor: '#00ff80',
-            data: [ 20, 40, 50, 20, 50, 40,70,80]
+            data: dataT.data
           },
         ]
-      }
+        }
     }
   }
 }

@@ -16,3 +16,4 @@ use App\Http\Controllers\StatusController;
 
 Route::get("/a",[StatusController::class,"index"]);
 Route::post("/b",[StatusController::class,"create"]);
+

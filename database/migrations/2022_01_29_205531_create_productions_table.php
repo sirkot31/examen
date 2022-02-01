@@ -18,7 +18,7 @@ class CreateProductionsTable extends Migration
             $table->string('ticket');
             $table->string('hour');
             $table->integer('productionXhour');
-            $table->foreign('ticket')->references('ticket')->on('statuses')->onDelete('cascade');
+
         });
     }
 

@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Production extends Model
 {
     use HasFactory;
-    private $fillable=['hour','productionXhour','ticket'];
+    protected $fillable=['hour','productionXhour','ticket'];
 }
