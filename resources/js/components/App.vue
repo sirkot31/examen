@@ -4,10 +4,23 @@
        <form @submit.prevent="create">
             <label for="fname">escaneo:</label><br>
             <input type="text" class="form-control" maxlength="15" v-model="register.ticket"><br>
-           <button type="submit" class="btn btn-primary">Guardar</button>
+            <hr>
+
+
 
       </form>
+      <div>
+      <label>Plan:</label>
+      <hr>
+      </div>
+      <div>
+        <label>Actual:</label>
+      </div>
+      <div>
+             <button type="submit" class="btn btn-primary ">Guardar</button>
         </div>
+        </div>
+
         <div class="col-sm-8">
         <graphic-component></graphic-component>
         </div>

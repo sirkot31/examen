@@ -5291,6 +5291,19 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "submitTicket",
@@ -5406,7 +5419,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 this.datacollection = {
                   labels: dataT.labels,
                   datasets: [{
-                    label: 'Actual',
+                    label: 'Ventas',
                     backgroundColor: '#00ff80',
                     data: dataT.data
                   }]
@@ -67418,19 +67431,46 @@ var render = function () {
           }),
           _c("br"),
           _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "btn btn-primary", attrs: { type: "submit" } },
-            [_vm._v("Guardar")]
-          ),
+          _c("hr"),
         ]
       ),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _vm._m(2),
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "col-sm-8" }, [_c("graphic-component")], 1),
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("label", [_vm._v("Plan:")]), _vm._v(" "), _c("hr")])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("label", [_vm._v("Actual:")])])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "button",
+        { staticClass: "btn btn-primary ", attrs: { type: "submit" } },
+        [_vm._v("Guardar")]
+      ),
+    ])
+  },
+]
 render._withStripped = true
 
 

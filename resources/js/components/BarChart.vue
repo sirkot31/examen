@@ -43,7 +43,7 @@ export default {
        labels: dataT.labels,
        datasets: [
           {
-            label: 'Actual',
+            label: 'Ventas',
             backgroundColor: '#00ff80',
             data: dataT.data
           },
